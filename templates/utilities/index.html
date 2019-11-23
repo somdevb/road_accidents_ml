@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>New Age - Start Bootstrap Theme</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "{% static './static/utilities/style.css' %}" type = "text/css">
+
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="{% static 'device-mockups/device-mockups.min.css' %}">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/new-age.min.css' %}" rel="stylesheet">
+  <link href="{% static 'css/new-age.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top" style="font-family: 'Poppins', arial;" style = "color: #fff; background: url('https://i.ibb.co/9YWmZNT/intro-bg.jpg'); background-size: cover;  background-repeat: no-repeat; filter: brightness(0.5);">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#" style = "font-size: 4rem;">serendipity</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Download API <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/form">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/file/d/1XYIq6SnWSwoKExH-eR4o9POeQf-z6DQD/view?usp=sharing">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <header class="masthead" >
+    <div class="container h-100" >
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto anim">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5 first-text" style = "font-family: Poppins, ubuntu, arial; font-size: 3rem; padding-top: 7rem;" >Surface to Air Quality</h1>
+            <hr style = "border: 1px solid #000;">
+            <h6 class="wow fadeInLeft animated" style = "padding-bottom: 1rem; font-family: Poppins, ubuntu, arial;" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">
+              
+            </h6>
+            <a href="/form2" class="btn btn-danger btn-outline btn-xl js-scroll-trigger active" style = "padding: .84rem 2.20rem; margin: .375rem;
+            margin-top: 0.350rem;
+            margin-right: 0.375rem;
+            margin-bottom: 0.375rem;
+            margin-left: 0rem;">GET AQI DATA</a>
+            <a href="/report" class="btn  btn-success btn-outline btn-xl js-scroll-trigger animbutton" style = "padding: .84rem 2.14rem; margin: .375rem;
+            margin-top: 0.350rem;
+            margin-right: 0.375rem;
+            margin-bottom: 0.375rem;
+            margin-left: 0.375rem;">REPORT AQI</a>
+          </div>
+        </div>
+        <div class="col-lg-5 my-auto">
+          <img src="https://i.ibb.co/DWm7pwp/pollution.png" alt="pollution" border="0">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+  
+  <a href="#" class="back-to-top" style="display: inline; color: #fff"><i class="fa fa-angle-up"></i></a>
+
+  <footer>
+    <div class="container fixed-bottom" style="text-align: center;" >
+      <p>&copy; serendipity 2019. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
