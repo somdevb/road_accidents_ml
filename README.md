@@ -2,7 +2,7 @@
 ## Project repository for team Serendipity for Bhopal Smart City Hackathon.
 
 
-# Project Description
+## Project Description:
 
 An Accident is an event that happens by chance or that is without apparent or deliberate cause.
 
